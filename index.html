@@ -8,9 +8,12 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">    
 
   </head>
   <body>
+    
     <!--repalce this h1 and p content with your own html table -->
     <h1>Hi there!</h1>
     <h2>This is semantic HTML challenge</h2>
@@ -21,6 +24,28 @@
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <h3 id="title">HTML/CSS Table Challenge</h3> <br> 
+    <div id=table>
+            
+        <table class="tftable" >
+        <tr ><th>Band</th><th>Year formed</th><th>No. of albums</th><th>Most famous song</th></tr>
+        <tr id="r1"><td>Buzzcocks</td><td>1976</td><td>9</td><td>Ever fallen in love (with someone you shouldn't've)</td></tr>
+        <tr id="r2"><td>The Clash</td><td>1976</td><td>6</td><td>London Calling</td></tr>
+        <tr id="r3"><td>The Damned</td><td>1976</td><td>10</td><td>Smash it up</td></tr>
+        <tr id="r4"><td>Sex Pistols</td><td>1975</td><td>1</td><td>Anarchy in the UK</td></tr>
+        <tr id="r5"><td>Sham 69</td><td>1976</td><td>13</td><td>If The Kids Are United</td></tr>
+        <tr id="r6"><td>Siouxsie and the Banshees</td><td>1976</td><td>11</td><td>Hong Kong Garden</td></tr>
+        <tr id="r7"><td>Stiff Little Fingers</td><td>1977</td><td>10</td><td>Suspect Device</td></tr>
+        <tr id="r8"><td>The Strangers</td><td>1974</td><td>17</td><td>No More Heroes</td></tr>
+        <tr ><th id="total" colspan="2" > Total Albums:</th><th id="totalnum"  colspan="2" >77</th></tr>
+
+        </table>
+        
+       <p  id=tbtitle >A summary of the UK's most famous punk bands</p>
+
+    </div>
+
+
     <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
